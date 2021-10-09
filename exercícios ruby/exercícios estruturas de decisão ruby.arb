@@ -1,0 +1,323 @@
+#Construa um algoritmo que receberá 2 números inteiros
+#e fará a soma desses números. Ao final, faz a impressão do 
+#resultado obtido. 
+
+puts "digite o primeiro número"
+n1 = 5
+puts "digite o segundo número"
+n2 = 5
+
+sum = n1 + n2
+
+puts "a soma é #{sum}"
+
+
+
+#Construa um algoritmo que receberá 2 números inteiros e
+# fará a subtração desses números. Ao final, faz a impressão
+# do resultado obtido.
+puts "digite os valores que deseja subtrair"
+n1 = 5
+n2 = 5
+
+subtração = n1 - n2
+puts "o resultado da subtração é #{subtração}"
+
+
+
+#Construa um algoritmo que receberá 3 números inteiros
+# (x1, x2 e x3) e que, em seguida, realizará a multiplicação 
+#desses números. Ao final, escreva o resultado (r) obtido no 
+#seguinte formato:
+
+#O resultado da multiplicação de x1*x2*x3 é r
+puts "digite os valores"
+n1 = 5
+n2 = 5
+n3 = 5
+
+multiplicação = n1 * n2 * n3
+
+puts "o resultado da multiplicação de #{n1}*#{n2}*#{n3} é #{multiplicação}"
+
+
+
+#Construa um algoritmo que receberá 2 números reais
+# (ponto flutuante) e que, em seguida, calcula a média entre
+# eles. Ao final, escreva o resultado obtido no seguinte formato:
+
+#A média entre os números X e Y é R
+
+puts "digite os valores"
+n1 = 7.0
+n2 = 6.0
+
+media = (n1+n2)/2
+puts "A média entre os números #{n1} e #{n2} é #{media}"
+
+
+
+#onstrua um algoritmo que receberá 3 números reais (X, Y e Z).
+#Em seguida, realize o seguinte cálculo:
+
+#w=X∗YZ
+#O primeiro número (X) deverá multiplicar o segundo (Y), e o
+#resultado dessa multiplicação deverá ser dividido pelo 
+#terceiro número (Z). Ao final, escreva o resultado obtido no
+#seguinte formato:
+
+#O resultado da expressão é w
+
+x = 9.0
+y = 8.0
+z = 3.0
+
+w = (x + y) / z
+puts "O resultado da expressão é #{w}"
+
+
+
+#Construa um algoritmo que receberá 3 números reais 
+#(ponto flutuante). Em seguida, calcule a média entre esses
+#três números. Ao final, realize apenas a impressão do 
+#resultado obtido.
+
+n1 = 9.0
+n2 = 8.0
+n3 = 7.0
+
+media = (n1+n2+n3)/3
+puts media
+
+
+
+#Construa um algoritmo que receberá 3 números reais. Em seguida,
+#calcula a média ponderada desses três números. Ao final, 
+#realize apenas a impressão do resultado obtido. A fórmula dessa 
+#média é a seguinte:
+
+ #   media=nota1×4+nota2×5+nota3×615
+#Observe que o primeiro número (nota1) deverá ser multiplicado 
+#por 4, em seguida, o segundo número (nota2) deverá ser 
+#multiplicado por 5 e, então, o terceiro número (nota3) deverá 
+#ser multiplicado por 6. Essas multiplicações deverão ser somadas
+#e o resultado dessa soma será dividido por 15. 
+
+n1 = 7 * 4
+n2 = 6 * 5
+n3 = 7 * 6
+
+media = (n1+n2+n3)/15
+puts media
+
+
+
+#Construa um algoritmo que receberá 1 número. Se o número 
+#for maior do que zero, seu algoritmo deverá imprimir a 
+#mensagem Número Positivo. Caso contrário, nada deverá ser 
+#impresso
+
+n1 = -3
+
+if n1>0
+    puts "número positivo"
+else
+    puts "número negativo"
+    
+end
+
+
+
+#Construa um algoritmo que receberá 2 números inteiro. O seu 
+#programa deverá verificar se o primeiro número é divisor do 
+#segundo número. Por exemplo: se os números fornecidos são 6 
+#e 3, então, pode-se dizer que 3 é divisor de 6, pois, ao 
+#realizar essa divisão, o resto é zero.
+
+#Se o segundo número for divisor do primeiro, o programa deverá 
+#imprimir a mensagem É divisor. Caso contrário, nada deverá ser 
+#impresso.
+
+n1 = 9
+n2 = 3
+
+if n1 % n2 == 0
+    puts "É divisor"
+end
+
+
+
+#Escreva um programa que receberá uma palavra qualquer e 
+#verificará se a palavra digitada é a senha correta. Se a senha 
+#estiver correta, o programa deverá imprimir a mensagem Senha 
+#correta, porém, se a senha não for correta, nada deverá ser 
+#impresso.
+
+#A senha correta é igualdade.
+
+senha = "igualdade"
+
+if senha == "igualdade"
+    puts "Senha correta"
+end
+
+
+
+#Você construirá um programa que verifica se a senha digitada está
+#correta! Construa um algoritmo que receberá uma senha qualquer.
+#Se a senha fornecida for a correta, o programa deverá imprimir
+#a mensagem Acesso Permitido, no entanto, se a senha digitada 
+#for diferente, o programa deverá imprimir Senha Inválida.
+
+#A senha: o programa deve verificar se a senha digitada é 200724040105.
+
+senha = "200724040105"
+
+if senha == "200724040105"
+    puts "acesso permitido"
+else
+    puts "Senha inválida"
+end
+
+
+
+#Você construirá um programa que recebe 3 números inteiros. Em 
+#seguida, o programa deverá verificar se o terceiro número está 
+#entre o primeiro e o segundo número fornecido.
+
+#Se o terceiro número estiver entre o intervalo do primeiro e do 
+#segundo, o programa deve escrever a mensagem Dentro do Intervalo
+# entre X e Y. Caso esteja fora, o programa deve escrever Fora
+#do Intervalo entre X e Y. Os caracteres X e Y devem ser
+# substituídos pelo valor do primeiro e do segundo número, 
+#respectivamente.
+
+
+#Exemplo 1: Se o programa recebe os números 1, 3 e 9, a saída
+# do programa é, então, Fora do Intervalo entre 1 e 3.
+
+#Exemplo 2: Porém, se o programa recebe os números 65, 100 e 88,
+#a saída do programa é, então, Dentro do Intervalo entre 65 e
+#100.
+
+n1 = 1
+n2 = 3
+n3 = 9
+
+if n3 > n1 && n3 < n2
+    puts "dentro do intervalo entre #{n1} e #{n2}"
+else
+    puts "fora do intervalo entre #{n1} e #{n2}"
+end
+
+
+
+=begin 
+Construa um programa que verifica se um número é múltiplo de 
+outro. Seu programa deverá receber 2 números e verificar se o
+segundo número é múltiplo do primeiro. Caso o segundo número
+seja múltiplo do primeiro, o seu programa deve imprimir a 
+mensagem São múltiplos. Caso contrário, a mensagem impressa pelo 
+seu programa deve ser Não são múltiplos.
+
+Exemplo 1: Se o programa recebe os números 3 e 9, a saída do
+programa é São múltiplos.
+Exemplo 2: Se o programa recebe os números 5 e 9, a saída 
+do programa é, então, Não são múltiplos. 
+=end
+
+n1 = 3
+n2 = 9
+
+if n2 % n1 == 0 
+    puts "São múltiplos"
+else
+    puts "não são múltiplos"
+end
+
+
+
+=begin O seu programa deverá receber um número inteiro. 
+Ao final, o programa deverá imprimir de qual estado é o DDD, 
+utilizando o seguinte formato: XX-Nome do Estado. Caso o número 
+digitado não esteja presente na tabela abaixo, o programa 
+deverá imprimir a mensagem DDD não encontrado.
+=end
+
+ddd = 84
+
+case ddd
+when 11
+    puts "11-São Paulo"
+when 21
+    puts "21-Rio de Janeiro"
+when 27
+    puts "27-Espirito Santo"
+when 31 
+    puts "31-Minas Gerais"
+when 41 
+    puts "41-Paraná"
+when 84
+    puts "84-Rio Grande do norte"
+else
+    puts "DDD não encontrado"
+end
+
+
+
+=begin System of a Download é uma famosa banda de Hacker Metal! 
+Certa vez, eles criaram um dispositivo, com seis botões, 
+numerados de 0 a 5, e colocaram nesse dispositivo os seus 11 
+maiores sucessos. Para tocar uma dessas músicas, é preciso 
+pressionar dois botões. Com isso, os números desses dois 
+botões são somados e, então, é tocada a música correspondente 
+ao número da soma, conforme a relação abaixo:
+
+0 - PROXYCITY
+1 - P.Y.N.G.
+2 - DNSUEY!
+3 - SERVERS
+4 - HOST!
+5 - CRIPTONIZE
+6 - OFFLINE DAY
+7 - SALT
+8 - ANSWER!
+9 - RAR?
+10 - WIFI ANTENNAS
+Por exemplo: se os botões pressionados forem 3 e 4, o programa 
+irá imprimir 7 - SALT
+
+Escreva um programa que simula a entrada dos dois botões que 
+orem pressionados e que determina qual música tocará.
+=end
+
+n1 = 2
+n2 = 4
+musica = n1 + n2
+
+case musica
+when 0 
+    puts "PROXYCITY"
+when 1
+    puts "P.Y.N.G"
+when 2
+    puts "DNSUEY"
+when 3
+    puts "SERVERS"
+when 4 
+    puts "HOST"
+when 5
+    puts "CRIPTONIZE"
+when 6
+    puts "OFFLINE DAY"
+when 7
+    puts "SALT"
+when 8
+    puts "ANSWER"
+when 9
+    puts "RAR?"
+when 10
+    puts "WIFI ANTENNAS"
+else 
+    puts "comando inválido"
+end

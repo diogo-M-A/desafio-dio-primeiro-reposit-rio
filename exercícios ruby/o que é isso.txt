@@ -1,0 +1,6 @@
+resolução dos exercícios da matéria de lógica de programação
+do curso profissionalizante de programação web do IMD em parceria
+com a UFRN. 
+
+Os exercícios são originalmente para a linguagem Potigol, mas
+resolvi "traduzir" eles para o ruby.
